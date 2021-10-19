@@ -1,0 +1,62 @@
+
+/* formulaire inscription reponsive  */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(172, 174, 177);
+  }
+
+
+
+
+section {
+    background-color: white;
+    /* height: 700px; */
+    padding-bottom: 0%;  
+  
+}
+
+
+
+.container {
+  box-sizing: border-box;
+  background-color:white;
+  padding-top: 7%;
+  margin: auto;
+  width: 50%;
+  /* max-width: 1500px; */
+}
+
+label {
+
+  margin-right: 0px;
+  margin-left: 0px;
+  width: 100%;
+  
+}
+
+
+
+h1 {
+  height: 50px;
+  color: #ffc800;
+  width: 100%;
+  text-align: center;
+  
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  /* alignement interieur des input / au maxwidth container */
+  box-sizing: border-box;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  
+}
+
+
+::placeholder {
+  text-align: left;
+}
